@@ -1,47 +1,6 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Custom Swap Widget</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0b0f19;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      width: 450px;
-      background: #111827;
-      padding: 20px;
-      border-radius: 16px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    }
-    h2 { text-align: center; margin-bottom: 20px; }
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-      border-radius: 12px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h2>Custom Swap Widget</h2><!-- Jupiter swap iframe with your referral / fee wallet -->
-<iframe 
-  src="https://jup.ag/swap?ref=5TgkD9EWSjGbWqUyd9qiJKaEc3BEBCXkCsW56XyC3kJu&feeBps=30" 
-  allow="clipboard-write; clipboard-read">
-</iframe>
+# Gold Price Alert Bot
 
-<p style="text-align:center; margin-top:10px; font-size:14px; opacity:0.7;">
-  Every swap charges a small fee (0.3%) sent to: 5TgkD9EWSjGbWqUyd9qiJKaEc3BEBCXkCsW56XyC3kJu
-</p>
-
-  </div>
-</body>
-</html>
+## Instructions
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run bot: `python gold_bot.py`
